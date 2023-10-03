@@ -1,0 +1,58 @@
+/* DOCUMENTO CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+    width: 100%;
+	font-family: 'Snell Roundhand';
+    background-color: #BFAE9F;
+}
+header { 
+	background-color: #5D6973;
+	height: 100%;
+	padding: 35px;
+	color: #9BAEBF;
+	text-align: center;
+    font-size: 35px;
+}
+.linha {
+    width: 100%;
+    display: flex;
+    background-color: #BFAE9F;
+    flex-wrap: wrap;
+}
+.filosofos {
+    width: 25%;
+    color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px ;
+    border-radius: 35px;
+}
+img {
+    width: 100%;
+}
+.filosofos h1{
+    padding-top: 30px;
+    color: #59473C;
+}
+.filosofos p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .filosofos {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .filosofos {
+        width: 100%;
+        margin: 0;
+    }
+}
