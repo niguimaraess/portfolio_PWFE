@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros</title>
+    <link rel="stylesheet" href="juros/estilo.css">
+    <link rel="icon" href="imagens/logo.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Mukta&display=swap');
+    </style>
+    <script src="juros/codigo.js"></script>
+</head>
+<body>
+    <h1>Calculadora de Juros</h1>
+    <form>
+        <label for="principal">Valor Principal ou Capital (R$):</label>
+        <input type="number" id="principal" placeholder="Digite o valor principal" required><br><br>
+
+        <label for="taxaDeJuros">Taxa de Juros Anual (%):</label>
+        <input type="number" id="taxaDeJuros" placeholder="Digite a taxa de juros" required><br><br>
+
+        <label for="periodoAnos">Período ou Tempo (Anos):</label>
+        <input type="number" id="periodoAnos" placeholder="Digite o período em anos" required><br><br>
+
+        <button type="button" onclick="calcularJuros()">Calcular Juros</button>
+    </form>
+    <br>
+    <div id="resultado"></div>
+</body>
+</html>
