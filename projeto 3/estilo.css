@@ -1,0 +1,64 @@
+/* DOCUMENRO CSS */
+
+/* RESET CSS */
+*{
+	margin: 5px;
+	padding: 5px;
+	box-sizing: border-box;
+	text-decoration: none;
+} 
+body{
+	font-family: Helvetica;
+	background-image: url("fundo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+header{
+	height: 100px;
+	background-color: #F2BB9B;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+main section {
+	width: 700px;
+	min-height: 500px;
+	background-color: #D99177;
+	border-radius: 30px;
+} 
+main section div {
+	width: 300px;
+	margin: 75px auto;
+}
+main section div button {
+	height: 50px;
+	width: 300px;
+	border-radius: 15px;
+	border: none;
+	margin: 30px 0 15px 0;
+	background-color: #401E12; 
+	color: #F2BB9B;
+	padding: 10px;
+	font-size: 18px;
+}
+main section div input {
+	height: 50px;
+	width: 300px;
+	border-radius: 15px;
+	border: none;
+	margin: 30px 0 15px 0;
+	background-color: #F2BB9B;
+	color: #401E12;
+	padding: 10px;
+	font-size: 18px;
+}
+header h1 {
+	color: #401E12;
+	font-size: 35px;
+}
+main section div h1 {
+	color: #401E12;
+	font-size: 35px;
+}
+
